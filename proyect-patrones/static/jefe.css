@@ -1,0 +1,19 @@
+/* static/style_jefe.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3e0;
+    color: #e65100;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #ef6c00;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #e65100;
+    text-decoration: none;
+}

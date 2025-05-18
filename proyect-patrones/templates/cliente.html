@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Cliente</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='cliente.css') }}">
+</head>
+<body>
+    <h1>Bienvenido, {{ user.username }} </h1>
+    <p>Este es tu panel como cliente. Aquí puedes consultar tus servicios o productos.</p>
+    <a href="{{ url_for('logout') }}">Cerrar sesión</a>
+</body>
+</html>

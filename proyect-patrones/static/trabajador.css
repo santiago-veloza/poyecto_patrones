@@ -1,0 +1,19 @@
+/* static/style_trabajador.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    color: #0d47a1;
+    text-align: center;
+    padding: 40px;
+}
+
+h1 {
+    color: #1565c0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #0d47a1;
+    text-decoration: none;
+}
